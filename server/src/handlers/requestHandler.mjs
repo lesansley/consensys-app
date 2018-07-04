@@ -6,7 +6,7 @@ const uportConn = connectors.uportConn;
 const otaLinks = helpers.otaLinks;
 
 const requestHandler = async req => {
-  if (req.init) {
+  if (req.body.init) {
     const token = await uportConn.createRequest({
       callbackUrl: `${config.apiRoot}:${config.port}/request`,
       exp: Math.floor(new Date().getTime() / 1000) + 300

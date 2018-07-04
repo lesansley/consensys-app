@@ -7,7 +7,7 @@ const config = {
     network: 'rinkeby',
   },
   port: process.env.PORT || 9004,
-  apiRoot: 'http://localhost'
+  apiRoot: 'http://97173b91.ngrok.io'
 };
 
 export default config
