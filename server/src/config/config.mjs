@@ -1,4 +1,4 @@
-// PUT APP CONFIG SETTINGS HERE
+// ADD APP CONFIG SETTINGS HERE
 const config = {
   uport: {
     name: 'Project App',
