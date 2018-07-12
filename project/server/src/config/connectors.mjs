@@ -12,8 +12,6 @@ const uportConn = new uport.Credentials({
   // Note: uPort uses Rinkeby by default, the above is the explicit format for selecting a network
 });
 
-// const web3 = uport.getWeb3();
-
 export default {
   uportConn
-}
+};

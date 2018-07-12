@@ -3,5 +3,7 @@ Minimalist Node.js Server with Express routing
 
 ## To start
 ```bash
-node  --experimental-modules  index.mjs
+cd [path-to-project-root-folder]
+cd server/
+node --experimental-modules index.mjs
 ```

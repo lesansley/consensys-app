@@ -1,7 +1,14 @@
-import AndroidApp from './AndroidApp';
-import IosApp from './IosApp';
+import About from './layouts/About';
+import Home from './layouts/Home';
+import Profile from './layouts/Profile';
+import NoMatch from './layouts/NoMatch';
+
+import NavBar from './ui/NavBar';
 
 export {
-  AndroidApp,
-  IosApp
-};
+  About,
+  Home,
+  NavBar,
+  NoMatch,
+  Profile
+}

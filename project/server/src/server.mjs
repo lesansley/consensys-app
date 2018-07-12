@@ -3,10 +3,11 @@ import http from 'http';
 import app from './app';
 import config from './config/config';
 
-const server = http.createServer(app);
+const httpserver = http.createServer(app);
 
-export default () => {
-  server.listen(config.port, () => {
-    console.log(`Listening on Port ${config.port}`);
-  });
-}
+const server = () => {
+	httpserver.listen(config.port, () => {
+		console.log(`Listening on Port ${config.port}`);
+	});
+};
+export default server;
